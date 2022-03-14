@@ -1,8 +1,9 @@
 {
-  "Actions": [
+  "Actions": 
+  [
     {
       "Icon": "images/actionIcon",
-      "Name": "StreamdeckSatisfactoryAction",
+      "Name": "Miner Build test",
       "States": [
         {
           "Image": "images/actionDefaultImage",
@@ -12,15 +13,14 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Satisfactory",
-      "UUID": "envy.satisfactory.plugin.DefaultPluginAction"
+      "UUID": "envy.satisfactory.buildings.miner"
     }
   ],
 	"Category": "Your Plugin Category",
 	"CategoryIcon": "images/category/categoryIcon",
 	"Disabled":  false,
-	"Author": "Your Name",
-	"CodePathWin": "streamdecksatisfactory.exe",
-	"CodePathMac":  "streamdecksatisfactory",
+	"Author": "Brett Parker",
+	"CodePath": "streamdecksatisfactory.exe",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Description of StreamdeckSatisfactory.",
   "Name": "StreamdeckSatisfactory",
@@ -32,10 +32,6 @@
 		"MinimumVersion":  "4.1"
 	},
 	"OS": [
-    {
-        "Platform": "mac",
-        "MinimumVersion" : "10.11"
-    },
     {
         "Platform": "windows",
         "MinimumVersion" : "10"
