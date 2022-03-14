@@ -93,7 +93,7 @@
 
 	<!-- Build Helper -->
 	<ItemGroup>
-		<Content Include="streamdeck_satisfactory.cmd">
+		<Content Include="streamdecksatisfactory.cmd">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>

@@ -11,7 +11,7 @@
         }
       ],
       "SupportedInMultiActions": false,
-      "Tooltip": "The first action for the StreamdeckSatisfactory Stream Deck plugin",
+      "Tooltip": "Satisfactory",
       "UUID": "envy.satisfactory.plugin.DefaultPluginAction"
     }
   ],
@@ -19,8 +19,8 @@
 	"CategoryIcon": "images/category/categoryIcon",
 	"Disabled":  false,
 	"Author": "Your Name",
-	"CodePathWin": "streamdeck_satisfactory.exe",
-	"CodePathMac":  "streamdeck_satisfactory",
+	"CodePathWin": "streamdecksatisfactory.exe",
+	"CodePathMac":  "streamdecksatisfactory",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Description of StreamdeckSatisfactory.",
   "Name": "StreamdeckSatisfactory",

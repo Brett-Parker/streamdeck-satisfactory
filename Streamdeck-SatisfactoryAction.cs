@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace streamdeck_satisfactory
+namespace streamdecksatisfactory
 {
   [ActionUuid(Uuid="envy.satisfactory.plugin.DefaultPluginAction")]
   public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.CounterSettingsModel>

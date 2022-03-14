@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Diagnostics;
 
-namespace streamdeck_satisfactory
+namespace streamdecksatisfactory
 {
     class Program
     {

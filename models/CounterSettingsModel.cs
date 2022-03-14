@@ -1,4 +1,4 @@
-﻿namespace streamdeck_satisfactory.Models
+﻿namespace streamdecksatisfactory.Models
 {
   public class CounterSettingsModel
   {
