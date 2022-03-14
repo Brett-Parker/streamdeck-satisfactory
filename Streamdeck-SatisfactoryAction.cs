@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace streamdeck_satisfactory
 {
   [ActionUuid(Uuid="envy.satisfactory.plugin.DefaultPluginAction")]
-  public class Streamdeck-SatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.CounterSettingsModel>
+  public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.CounterSettingsModel>
   {
 	public override async Task OnKeyUp(StreamDeckEventPayload args)
 	{

@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "images/actionIcon",
-      "Name": "Streamdeck-SatisfactoryAction",
+      "Name": "StreamdeckSatisfactoryAction",
       "States": [
         {
           "Image": "images/actionDefaultImage",
@@ -11,7 +11,7 @@
         }
       ],
       "SupportedInMultiActions": false,
-      "Tooltip": "The first action for the Streamdeck-Satisfactory Stream Deck plugin",
+      "Tooltip": "The first action for the StreamdeckSatisfactory Stream Deck plugin",
       "UUID": "envy.satisfactory.plugin.DefaultPluginAction"
     }
   ],
@@ -22,8 +22,8 @@
 	"CodePathWin": "streamdeck_satisfactory.exe",
 	"CodePathMac":  "streamdeck_satisfactory",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
-  "Description": "Description of Streamdeck-Satisfactory.",
-  "Name": "Streamdeck-Satisfactory",
+  "Description": "Description of StreamdeckSatisfactory.",
+  "Name": "StreamdeckSatisfactory",
   "Icon": "images/pluginIcon",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",

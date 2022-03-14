@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj": {}
+    "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj": {
+    "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj",
-        "projectName": "streamdeck-satisfactory",
-        "projectPath": "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj",
+        "projectUniqueName": "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj",
+        "projectName": "streamdecksatisfactory",
+        "projectPath": "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\streamdeck-satisfactory\\obj\\",
+        "outputPath": "C:\\GIT\\streamdecksatisfactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brett\\AppData\\Roaming\\NuGet\\NuGet.Config",

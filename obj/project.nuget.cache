@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pce2TGBoBRyyHp1Jmt3tCeWmmVGkBAEfDPEmDoanpngPHsJeyxzMVWqYp7ZO9R4VU0u2EsjW0EmGpXnleQqSRg==",
+  "dgSpecHash": "K3yq9poC+vgJS+KPdUDyM+0pI1CsJRtzyssSPiHEzaYCWDK3lfYjvIliMFQawcxOqeg7tLTDRx/kQcrOUMiKMg==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj",
+  "projectFilePath": "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\mcmaster.extensions.commandlineutils\\3.0.0\\mcmaster.extensions.commandlineutils.3.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
@@ -141,13 +141,9 @@
     "C:\\Users\\brett\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.23\\microsoft.netcore.app.runtime.win-x64.3.1.23.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.23\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.23.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.23\\microsoft.aspnetcore.app.runtime.win-x64.3.1.23.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.23\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }

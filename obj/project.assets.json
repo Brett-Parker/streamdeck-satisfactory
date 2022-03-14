@@ -8453,19 +8453,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj",
-      "projectName": "streamdeck-satisfactory",
-      "projectPath": "C:\\GIT\\streamdeck-satisfactory\\streamdeck-satisfactory.csproj",
+      "projectUniqueName": "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj",
+      "projectName": "streamdecksatisfactory",
+      "projectPath": "C:\\GIT\\streamdecksatisfactory\\streamdecksatisfactory.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\streamdeck-satisfactory\\obj\\",
+      "outputPath": "C:\\GIT\\streamdecksatisfactory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brett\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\brett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8545,28 +8547,12 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
             "version": "[3.1.23, 3.1.23]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.23, 3.1.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
             "version": "[3.1.23, 3.1.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
