@@ -1,11 +1,5 @@
 ﻿using StreamDeckLib;
 using StreamDeckLib.Messages;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using WindowsInput.Native;
 using WindowsInput;
@@ -16,7 +10,7 @@ namespace streamdecksatisfactory
   public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.CounterSettingsModel>
   {
 
-		InputSimulator sim = new InputSimulator();
+	InputSimulator sim = new InputSimulator();
 
 	public override async Task OnKeyUp(StreamDeckEventPayload args)
 	{
