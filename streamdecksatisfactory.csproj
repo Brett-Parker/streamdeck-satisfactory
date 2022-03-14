@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -19,6 +19,7 @@
 
 	<!--Dependencies-->
 	<ItemGroup>
+		<PackageReference Include="InputSimulatorPlus" Version="1.0.7" />
 		<PackageReference Include="StreamDeckLib" Version="0.*" />
 		<PackageReference Include="StreamDeckLib.Config" Version="0.*" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.3" />
