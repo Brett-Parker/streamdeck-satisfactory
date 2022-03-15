@@ -1,40 +1,39 @@
 {
-  "Actions": 
-  [
+  "Actions": [
     {
-      "Icon": "images/actionIcon",
+      "Icon": "images/miner",
       "Name": "Miner Build test",
       "States": [
         {
-          "Image": "images/actionDefaultImage",
+          "Image": "images/miner",
           "TitleAlignment": "middle",
           "FontSize": "16"
         }
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Satisfactory",
-      "UUID": "envy.satisfactory.buildings.miner"
+      "UUID": "envy.satisfactory.buildings"
     }
   ],
-	"Category": "Your Plugin Category",
-	"CategoryIcon": "images/category/categoryIcon",
-	"Disabled":  false,
-	"Author": "Brett Parker",
-	"CodePath": "streamdecksatisfactory.exe",
+  "Category": "Your Plugin Category",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Brett Parker",
+  "CodePath": "streamdecksatisfactory.exe",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Description of StreamdeckSatisfactory.",
   "Name": "StreamdeckSatisfactory",
-  "Icon": "images/pluginIcon",
+  "Icon": "images/miner",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",
-	"SDKVersion": 2,
-	"Software": {
-		"MinimumVersion":  "4.1"
-	},
-	"OS": [
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
     {
-        "Platform": "windows",
-        "MinimumVersion" : "10"
+      "Platform": "windows",
+      "MinimumVersion": "10"
     }
   ]
 }
