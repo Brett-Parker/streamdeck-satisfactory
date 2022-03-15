@@ -12,10 +12,6 @@
 		<RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
 	</PropertyGroup>
 
-	<!-- Post build event scripts that deploy to stream deck -->
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)'=='Debug'">
-		<Exec Command="powershell -ExecutionPolicy Unrestricted -file &quot;$(ProjectDir)RegisterPluginAndStartStreamDeck.ps1&quot;" />
-	</Target>
 	<ItemGroup>
 	  <None Remove="images\miner.png" />
 	</ItemGroup>

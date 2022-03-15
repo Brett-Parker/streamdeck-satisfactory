@@ -3,7 +3,6 @@ using StreamDeckLib.Messages;
 using System.Threading.Tasks;
 using WindowsInput.Native;
 using WindowsInput;
-using System;
 
 namespace streamdecksatisfactory
 {
@@ -12,15 +11,14 @@ namespace streamdecksatisfactory
   {
 	// Variable decleration
 	InputSimulator sim = new InputSimulator();
-    private VirtualKeyCode virtualKeyCode;
 
 	// StreamDeck button press
     public override async Task OnKeyUp(StreamDeckEventPayload args)
 	{
 		await Manager.SetTitleAsync(args.context, "Miner");
-		
+
 		// Open search bar
-		KeyPress("VK_N");
+		sim.Keyboard.KeyPress(VirtualKeyCode.VK_N);
 		KeyboardSleep(50);
 
 		// Text entry to search. E.G "Miner"
@@ -30,14 +28,6 @@ namespace streamdecksatisfactory
 
 		//update settings
 		await Manager.SetSettingsAsync(args.context, SettingsModel);
-	}
-
-	/// <summary>
-	/// KeyPress simulations a keypress input
-	/// </summary>
-    private void KeyPress(string input)
-	{
-		sim.Keyboard.KeyPress(virtualKeyCode);
 	}
 
 	/// <summary>
