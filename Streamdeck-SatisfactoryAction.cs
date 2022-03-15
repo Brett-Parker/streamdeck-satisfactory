@@ -8,7 +8,7 @@ using System;
 namespace streamdecksatisfactory
 {
   [ActionUuid(Uuid= "envy.satisfactory.buildings")]
-  public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.CounterSettingsModel>
+  public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.SatisfactorySettingsModel>
   {
 	// Variable decleration
 	InputSimulator sim = new InputSimulator();
@@ -18,18 +18,14 @@ namespace streamdecksatisfactory
     public override async Task OnKeyUp(StreamDeckEventPayload args)
 	{
 		await Manager.SetTitleAsync(args.context, "Miner");
-		if (Enum.TryParse<VirtualKeyCode>("VK_N", out virtualKeyCode))
-		{
-			KeyPress("VK_N");
-			KeyboardSleep(50);
-			sim.Keyboard.TextEntry("Miner");
-			KeyboardSleep(50);
-		}
-        else 
-		{
-			return;
-		}
+		
+		// Open search bar
+		KeyPress("VK_N");
+		KeyboardSleep(50);
 
+		// Text entry to search. E.G "Miner"
+		sim.Keyboard.TextEntry("Miner");
+		KeyboardSleep(50);
 		PressReturn();
 
 		//update settings
@@ -65,13 +61,13 @@ namespace streamdecksatisfactory
 	public override async Task OnDidReceiveSettings(StreamDeckEventPayload args)
 	{
 		await base.OnDidReceiveSettings(args);
-		await Manager.SetTitleAsync(args.context, "Miner");
+		await Manager.SetTitleAsync(args.context, "");
 	}
 
 	public override async Task OnWillAppear(StreamDeckEventPayload args)
 	{
 		await base.OnWillAppear(args);
-		await Manager.SetTitleAsync(args.context, "Miner");
+		await Manager.SetTitleAsync(args.context, "");
 	}
   }
 }
