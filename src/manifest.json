@@ -1,21 +1,21 @@
 {
   "Actions": [
     {
-      "Icon": "images/miner",
-      "Name": "Miner Build test",
-      "States": [
-        {
-          "Image": "images/miner",
-          "TitleAlignment": "middle",
-          "FontSize": "16"
-        }
-      ],
-      "SupportedInMultiActions": false,
-      "Tooltip": "Satisfactory",
-      "UUID": "envy.satisfactory.buildings"
+        "Icon": "images/miner",
+        "Name": "Building Macro",
+        "States": [
+            {
+                "Image": "images/miner",
+                "TitleAlignment": "middle",
+                "FontSize": "16"
+            }
+        ],
+        "SupportedInMultiActions": false,
+        "Tooltip": "Build Macro",
+        "UUID": "envy.satisfactory.buildings"
     }
   ],
-  "Category": "Your Plugin Category",
+  "Category": "Satisfactory Game Plugin",
   "CategoryIcon": "images/category/categoryIcon",
   "Disabled": false,
   "Author": "Brett Parker",

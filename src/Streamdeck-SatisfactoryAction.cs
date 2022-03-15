@@ -15,14 +15,14 @@ namespace streamdecksatisfactory
 	// StreamDeck button press
     public override async Task OnKeyUp(StreamDeckEventPayload args)
 	{
-		await Manager.SetTitleAsync(args.context, "Miner");
+		await Manager.SetTitleAsync(args.context, "");
 
 		// Open search bar
 		sim.Keyboard.KeyPress(VirtualKeyCode.VK_N);
 		KeyboardSleep(50);
 
 		// Text entry to search. E.G "Miner"
-		sim.Keyboard.TextEntry("Miner");
+		sim.Keyboard.TextEntry(SettingsModel.SearchText);
 		KeyboardSleep(50);
 		PressReturn();
 
