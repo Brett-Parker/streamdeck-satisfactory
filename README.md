@@ -1,3 +1,3 @@
 ## Welcome
 
-This repo is a plugin for Elgato Stream Deck and specificall for the video game Satisfactory!
+This repo is a plugin for Elgato Stream Deck and specifically for the video game Satisfactory!
