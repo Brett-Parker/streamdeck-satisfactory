@@ -1,18 +1,18 @@
 {
   "Actions": [
     {
-        "Icon": "images/miner",
-        "Name": "Building Macro",
-        "States": [
-            {
-                "Image": "images/miner",
-                "TitleAlignment": "middle",
-                "FontSize": "16"
-            }
-        ],
-        "SupportedInMultiActions": false,
-        "Tooltip": "Build Macro",
-        "UUID": "envy.satisfactory.buildings"
+      "Icon": "images/miner",
+      "Name": "Building Macro",
+      "States": [
+        {
+          "Image": "",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Build Macro",
+      "UUID": "envy.satisfactory.buildings"
     }
   ],
   "Category": "Satisfactory Game Plugin",
@@ -23,7 +23,7 @@
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Description of StreamdeckSatisfactory.",
   "Name": "StreamdeckSatisfactory",
-  "Icon": "images/miner",
+  "Icon": "images/category/categoryIcon@2x",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",
   "SDKVersion": 2,
