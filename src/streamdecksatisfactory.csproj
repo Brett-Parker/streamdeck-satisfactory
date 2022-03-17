@@ -10,12 +10,396 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="images\Assembler.png" />
+	  <None Remove="images\Automated_Gate.png" />
+	  <None Remove="images\AWESOME_Shop.png" />
+	  <None Remove="images\AWESOME_Sink.png" />
+	  <None Remove="images\Basic_Wall_1m_%28Concrete%29.png" />
+	  <None Remove="images\Basic_Wall_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Basic_Wall_1m_%28Steel%29.png" />
+	  <None Remove="images\Basic_Wall_4m_%28Concrete%29.png" />
+	  <None Remove="images\Basic_Wall_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Basic_Wall_4m_%28Steel%29.png" />
+	  <None Remove="images\Beam_Connector.png" />
+	  <None Remove="images\Beam_Connector_Double.png" />
+	  <None Remove="images\Beam_Support.png" />
+	  <None Remove="images\Big_Concrete_Pillar.png" />
+	  <None Remove="images\Big_Frame_Pillar.png" />
+	  <None Remove="images\Big_Metal_Pillar.png" />
+	  <None Remove="images\Big_Pillar_Support.png" />
+	  <None Remove="images\Biomass_Burner.png" />
+	  <None Remove="images\Blender.png" />
+	  <None Remove="images\Block_Signal.png" />
+	  <None Remove="images\Candy_Cane_Building.png" />
+	  <None Remove="images\Catwalk_Corner.png" />
+	  <None Remove="images\Catwalk_Crossing.png" />
+	  <None Remove="images\Catwalk_Ramp.png" />
+	  <None Remove="images\Catwalk_Stairs.png" />
+	  <None Remove="images\Catwalk_Straight.png" />
+	  <None Remove="images\Catwalk_T-Crossing.png" />
+	  <None Remove="images\Ceiling_Light.png" />
+	  <None Remove="images\Center_Door_Wall_%28Concrete%29.png" />
+	  <None Remove="images\Center_Door_Wall_%28FICSIT%29.png" />
+	  <None Remove="images\Center_Door_Wall_%28Steel%29.png" />
+	  <None Remove="images\Coal_Generator.png" />
+	  <None Remove="images\Constructor.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.1.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.2.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.3.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.4.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.5.png" />
+	  <None Remove="images\Conveyor_Belt_Mk.6.png" />
+	  <None Remove="images\Conveyor_Lift_Floor_Hole.png" />
+	  <None Remove="images\Conveyor_Lift_Mk.1.png" />
+	  <None Remove="images\Conveyor_Lift_Mk.2.png" />
+	  <None Remove="images\Conveyor_Lift_Mk.3.png" />
+	  <None Remove="images\Conveyor_Lift_Mk.4.png" />
+	  <None Remove="images\Conveyor_Lift_Mk.5.png" />
+	  <None Remove="images\Conveyor_Merger.png" />
+	  <None Remove="images\Conveyor_Pole.png" />
+	  <None Remove="images\Conveyor_Splitter.png" />
+	  <None Remove="images\Conveyor_Wall_Mount.png" />
+	  <None Remove="images\Conveyor_Wall_x1_%28Concrete%29.png" />
+	  <None Remove="images\Conveyor_Wall_x1_%28FICSIT%29.png" />
+	  <None Remove="images\Conveyor_Wall_x1_%28Steel%29.png" />
+	  <None Remove="images\Conveyor_Wall_x2_%28Concrete%29.png" />
+	  <None Remove="images\Conveyor_Wall_x2_%28FICSIT%29.png" />
+	  <None Remove="images\Conveyor_Wall_x2_%28Steel%29.png" />
+	  <None Remove="images\Conveyor_Wall_x3_%28Concrete%29.png" />
+	  <None Remove="images\Conveyor_Wall_x3_%28FICSIT%29.png" />
+	  <None Remove="images\Conveyor_Wall_x3_%28Steel%29.png" />
+	  <None Remove="images\Craft_Bench.png" />
+	  <None Remove="images\Display_Sign.png" />
+	  <None Remove="images\Double_Ramp_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Double_Ramp_2m_%28Coated%29.png" />
+	  <None Remove="images\Double_Ramp_2m_%28Concrete%29.png" />
+	  <None Remove="images\Double_Ramp_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Double_Ramp_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Double_Ramp_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Double_Ramp_4m_%28Coated%29.png" />
+	  <None Remove="images\Double_Ramp_4m_%28Concrete%29.png" />
+	  <None Remove="images\Double_Ramp_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Double_Ramp_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Double_Ramp_8m_%28Asphalt%29.png" />
+	  <None Remove="images\Double_Ramp_8m_%28Coated%29.png" />
+	  <None Remove="images\Double_Ramp_8m_%28Concrete%29.png" />
+	  <None Remove="images\Double_Ramp_8m_%28FICSIT%29.png" />
+	  <None Remove="images\Double_Ramp_8m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Double_Wall_Outlet_Mk.1.png" />
+	  <None Remove="images\Double_Wall_Outlet_Mk.2.png" />
+	  <None Remove="images\Double_Wall_Outlet_Mk.3.png" />
+	  <None Remove="images\Down_Corner_Ramp_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_1m_%28Coated%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_1m_%28Concrete%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_2m_%28Coated%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_2m_%28Concrete%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_4m_%28Coated%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_4m_%28Concrete%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Down_Corner_Ramp_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Drone_Port.png" />
+	  <None Remove="images\Empty_Platform.png" />
+	  <None Remove="images\Empty_Platform_With_Catwalk.png" />
+	  <None Remove="images\Equipment_Workshop.png" />
+	  <None Remove="images\FICSIT_Roof_1m.png" />
+	  <None Remove="images\FICSIT_Roof_2m.png" />
+	  <None Remove="images\FICSIT_Roof_4m.png" />
+	  <None Remove="images\FICSIT_Roof_Flat.png" />
+	  <None Remove="images\FICSMAS_Gift_Tree.png" />
+	  <None Remove="images\FICSMAS_Power_Light.png" />
+	  <None Remove="images\FICSMAS_Snow_Dispenser.png" />
+	  <None Remove="images\FICSMAS_Wreath.png" />
+	  <None Remove="images\Flood_Light_Tower.png" />
+	  <None Remove="images\Fluid_Buffer.png" />
+	  <None Remove="images\Fluid_Freight_Platform.png" />
+	  <None Remove="images\Foundation_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Foundation_1m_%28Coated%29.png" />
+	  <None Remove="images\Foundation_1m_%28Concrete%29.png" />
+	  <None Remove="images\Foundation_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Foundation_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Foundation_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Foundation_2m_%28Coated%29.png" />
+	  <None Remove="images\Foundation_2m_%28Concrete%29.png" />
+	  <None Remove="images\Foundation_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Foundation_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Foundation_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Foundation_4m_%28Coated%29.png" />
+	  <None Remove="images\Foundation_4m_%28Concrete%29.png" />
+	  <None Remove="images\Foundation_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Foundation_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Foundry.png" />
+	  <None Remove="images\Frame_Floor.png" />
+	  <None Remove="images\Frame_Foundation.png" />
+	  <None Remove="images\Frame_Ramp.png" />
+	  <None Remove="images\Frame_Wall.png" />
+	  <None Remove="images\Frame_Window_%28Concrete%29.png" />
+	  <None Remove="images\Frame_Window_%28FICSIT%29.png" />
+	  <None Remove="images\Frame_Window_%28Steel%29.png" />
+	  <None Remove="images\Freight_Platform.png" />
+	  <None Remove="images\Fuel_Generator.png" />
+	  <None Remove="images\Full_Frame_Window.png" />
+	  <None Remove="images\Gate_Hole_Wall_%28Concrete%29.png" />
+	  <None Remove="images\Gate_Hole_Wall_%28FICSIT%29.png" />
+	  <None Remove="images\Gate_Hole_Wall_%28Steel%29.png" />
+	  <None Remove="images\Geothermal_Generator.png" />
+	  <None Remove="images\Giant_FICSMAS_Tree.png" />
+	  <None Remove="images\Glass_Foundation_8m_x_1m.png" />
+	  <None Remove="images\Glass_Frame_Foundation.png" />
+	  <None Remove="images\Glass_Roof_1m.png" />
+	  <None Remove="images\Glass_Roof_2m.png" />
+	  <None Remove="images\Glass_Roof_4m.png" />
+	  <None Remove="images\Glass_Roof_Flat.png" />
+	  <None Remove="images\Hazard_Storage_Box.png" />
+	  <None Remove="images\Hex_Frame_Window.png" />
+	  <None Remove="images\Hypertube_Entrance.png" />
+	  <None Remove="images\Hypertube_Floor_Hole.png" />
+	  <None Remove="images\Hypertube_Support.png" />
+	  <None Remove="images\Hypertube_Wall_Hole.png" />
+	  <None Remove="images\Hypertube_Wall_Support.png" />
+	  <None Remove="images\Hyper_Tube.png" />
+	  <None Remove="images\Industrial_Fluid_Buffer.png" />
+	  <None Remove="images\Industrial_Lighting.png" />
+	  <None Remove="images\Industrial_Railing.png" />
+	  <None Remove="images\Industrial_Storage_Container.png" />
+	  <None Remove="images\Inner_Corner_Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Down_Corner_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Down_Corner_1m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Down_Corner_1m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Down_Corner_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Down_Corner_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Down_Corner_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Down_Corner_2m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Down_Corner_2m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Down_Corner_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Down_Corner_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Down_Corner_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Down_Corner_4m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Down_Corner_4m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Down_Corner_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Down_Corner_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Ramp_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Ramp_1m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Ramp_1m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Ramp_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Ramp_2m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Ramp_2m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Ramp_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Ramp_4m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Ramp_4m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_1m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_1m_%28Steel%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_2m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_2m_%28Steel%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_4m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_4m_%28Steel%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_8m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_8m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Ramp_Wall_8m_%28Steel%29.png" />
+	  <None Remove="images\Inv._Up_Corner_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Up_Corner_1m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Up_Corner_1m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Up_Corner_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Up_Corner_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Up_Corner_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Up_Corner_2m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Up_Corner_2m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Up_Corner_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Up_Corner_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inv._Up_Corner_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Inv._Up_Corner_4m_%28Coated%29.png" />
+	  <None Remove="images\Inv._Up_Corner_4m_%28Concrete%29.png" />
+	  <None Remove="images\Inv._Up_Corner_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Inv._Up_Corner_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Inverted_Frame_Ramp.png" />
+	  <None Remove="images\Inverted_Inner_Corner_Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Inverted_Outer_Corner_Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Inverted_Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Jump_Pad.png" />
+	  <None Remove="images\Label_Sign_2m.png" />
+	  <None Remove="images\Label_Sign_3m.png" />
+	  <None Remove="images\Label_Sign_4m.png" />
+	  <None Remove="images\Ladder.png" />
+	  <None Remove="images\Large_Billboard.png" />
+	  <None Remove="images\Left_Door_Wall_%28Plating%29.png" />
+	  <None Remove="images\Left_Door_Wall_%28Sheet_Metal%29.png" />
+	  <None Remove="images\Lights_Control_Panel.png" />
+	  <None Remove="images\Lookout_Tower.png" />
+	  <None Remove="images\MAM.png" />
+	  <None Remove="images\Manufacturer.png" />
+	  <None Remove="images\Medical_Storage_Box.png" />
+	  <None Remove="images\Metal_Beam.png" />
+	  <None Remove="images\Metal_Roof_1m.png" />
+	  <None Remove="images\Metal_Roof_2m.png" />
+	  <None Remove="images\Metal_Roof_4m.png" />
+	  <None Remove="images\Metal_Roof_Flat.png" />
 	  <None Remove="images\miner.png" />
+	  <None Remove="images\Miner_Mk.1.png" />
+	  <None Remove="images\Miner_Mk.2.png" />
+	  <None Remove="images\Miner_Mk.3.png" />
+	  <None Remove="images\Modern_Railing.png" />
+	  <None Remove="images\Nuclear_Power_Plant.png" />
+	  <None Remove="images\Oil_Extractor.png" />
+	  <None Remove="images\Outer_Corner_Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Packager.png" />
+	  <None Remove="images\Painted_Beam.png" />
+	  <None Remove="images\Panel_Window_%28Concrete%29.png" />
+	  <None Remove="images\Panel_Window_%28FICSIT%29.png" />
+	  <None Remove="images\Panel_Window_%28Steel%29.png" />
+	  <None Remove="images\Particle_Accelerator.png" />
+	  <None Remove="images\Path_Signal.png" />
+	  <None Remove="images\Personal_Storage_Box.png" />
+	  <None Remove="images\Pillar_Base.png" />
+	  <None Remove="images\Pillar_Middle.png" />
+	  <None Remove="images\Pillar_Top.png" />
+	  <None Remove="images\Pipeline_Floor_Hole.png" />
+	  <None Remove="images\Pipeline_Junction_Cross.png" />
+	  <None Remove="images\Pipeline_Mk.1.png" />
+	  <None Remove="images\Pipeline_Mk.2.png" />
+	  <None Remove="images\Pipeline_Pump_Mk.1.png" />
+	  <None Remove="images\Pipeline_Pump_Mk.2.png" />
+	  <None Remove="images\Pipeline_Support.png" />
+	  <None Remove="images\Pipeline_Wall_Hole.png" />
+	  <None Remove="images\Pipeline_Wall_Support.png" />
+	  <None Remove="images\Portrait_Sign.png" />
+	  <None Remove="images\Power_Line.png" />
+	  <None Remove="images\Power_Pole_Mk.1.png" />
+	  <None Remove="images\Power_Pole_Mk.2.png" />
+	  <None Remove="images\Power_Pole_Mk.3.png" />
+	  <None Remove="images\Power_Storage.png" />
+	  <None Remove="images\Power_Switch.png" />
+	  <None Remove="images\Programmable_Splitter.png" />
+	  <None Remove="images\Quarter_Pipe_%28FICSIT%29.png" />
+	  <None Remove="images\Radar_Tower.png" />
+	  <None Remove="images\Railway.png" />
+	  <None Remove="images\Ramp_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Ramp_1m_%28Coated%29.png" />
+	  <None Remove="images\Ramp_1m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Ramp_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Ramp_2m_%28Coated%29.png" />
+	  <None Remove="images\Ramp_2m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Ramp_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Ramp_4m_%28Coated%29.png" />
+	  <None Remove="images\Ramp_4m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Ramp_Wall_1m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_Wall_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_Wall_1m_%28Steel%29.png" />
+	  <None Remove="images\Ramp_Wall_2m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_Wall_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_Wall_2m_%28Steel%29.png" />
+	  <None Remove="images\Ramp_Wall_4m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_Wall_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_Wall_4m_%28Steel%29.png" />
+	  <None Remove="images\Ramp_Wall_8m_%28Concrete%29.png" />
+	  <None Remove="images\Ramp_Wall_8m_%28FICSIT%29.png" />
+	  <None Remove="images\Ramp_Wall_8m_%28Steel%29.png" />
+	  <None Remove="images\Refinery.png" />
+	  <None Remove="images\Reinforced_Window_%28Concrete%29.png" />
+	  <None Remove="images\Reinforced_Window_%28FICSIT%29.png" />
+	  <None Remove="images\Reinforced_Window_%28Steel%29.png" />
+	  <None Remove="images\Resource_Well_Extractor.png" />
+	  <None Remove="images\Resource_Well_Pressurizer.png" />
+	  <None Remove="images\Right_Door_Wall_%28Plating%29.png" />
+	  <None Remove="images\Right_Door_Wall_%28Sheet_Metal%29.png" />
+	  <None Remove="images\Road_Barrier.png" />
+	  <None Remove="images\Side_Door_Wall_%28Concrete%29.png" />
+	  <None Remove="images\Side_Door_Wall_%28FICSIT%29.png" />
+	  <None Remove="images\Side_Door_Wall_%28Steel%29.png" />
+	  <None Remove="images\Single_Window_%28Concrete%29.png" />
+	  <None Remove="images\Single_Window_%28FICSIT%29.png" />
+	  <None Remove="images\Single_Window_%28Steel%29.png" />
+	  <None Remove="images\Small_Billboard.png" />
+	  <None Remove="images\Small_Concrete_Pillar.png" />
+	  <None Remove="images\Small_Frame_Pillar.png" />
+	  <None Remove="images\Small_Metal_Pillar.png" />
+	  <None Remove="images\Small_Pillar_Support.png" />
+	  <None Remove="images\Smart_Splitter.png" />
+	  <None Remove="images\Smelter.png" />
+	  <None Remove="images\Snowman.png" />
+	  <None Remove="images\Space_Elevator.png" />
+	  <None Remove="images\Square_Sign_0.5m.png" />
+	  <None Remove="images\Square_Sign_1m.png" />
+	  <None Remove="images\Square_Sign_2m.png" />
+	  <None Remove="images\Stackable_Conveyor_Pole.png" />
+	  <None Remove="images\Stackable_Hypertube_Support.png" />
+	  <None Remove="images\Stackable_Pipeline_Support.png" />
+	  <None Remove="images\Stairs_Left.png" />
+	  <None Remove="images\Stairs_Right.png" />
+	  <None Remove="images\Storage_Container.png" />
+	  <None Remove="images\Street_Light.png" />
+	  <None Remove="images\Tar_Roof_1m.png" />
+	  <None Remove="images\Tar_Roof_2m.png" />
+	  <None Remove="images\Tar_Roof_4m.png" />
+	  <None Remove="images\Tar_Roof_Flat.png" />
+	  <None Remove="images\The_HUB.png" />
+	  <None Remove="images\Tilted_Corner_Wall_4m_%28Concrete%29.png" />
+	  <None Remove="images\Tilted_Corner_Wall_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Tilted_Corner_Wall_4m_%28Steel%29.png" />
+	  <None Remove="images\Tilted_Corner_Wall_8m_%28Concrete%29.png" />
+	  <None Remove="images\Tilted_Corner_Wall_8m_%28FICSIT%29.png" />
+	  <None Remove="images\Tilted_Corner_Wall_8m_%28Steel%29.png" />
+	  <None Remove="images\Tilted_Wall_4m_%28Concrete%29.png" />
+	  <None Remove="images\Tilted_Wall_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Tilted_Wall_4m_%28Steel%29.png" />
+	  <None Remove="images\Tilted_Wall_8m_%28Concrete%29.png" />
+	  <None Remove="images\Tilted_Wall_8m_%28FICSIT%29.png" />
+	  <None Remove="images\Tilted_Wall_8m_%28Steel%29.png" />
+	  <None Remove="images\Train_Station.png" />
+	  <None Remove="images\Truck_Station.png" />
+	  <None Remove="images\U-Jelly_Landing_Pad.png" />
+	  <None Remove="images\Up_Corner_Ramp_1m_%28Asphalt%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_1m_%28Coated%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_1m_%28Concrete%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_1m_%28FICSIT%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_1m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_2m_%28Asphalt%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_2m_%28Coated%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_2m_%28Concrete%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_2m_%28FICSIT%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_2m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_4m_%28Asphalt%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_4m_%28Coated%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_4m_%28Concrete%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_4m_%28FICSIT%29.png" />
+	  <None Remove="images\Up_Corner_Ramp_4m_%28Grip_Metal%29.png" />
+	  <None Remove="images\Valve.png" />
+	  <None Remove="images\Walkway_Crossing.png" />
+	  <None Remove="images\Walkway_Ramp.png" />
+	  <None Remove="images\Walkway_Straight.png" />
+	  <None Remove="images\Walkway_T-Crossing.png" />
+	  <None Remove="images\Walkway_Turn.png" />
+	  <None Remove="images\Wall_Conveyor_Perpendicular_%28Plating%29.png" />
+	  <None Remove="images\Wall_Conveyor_Perpendicular_%28Sheet_Metal%29.png" />
+	  <None Remove="images\Wall_Mounted_Flood_Light.png" />
+	  <None Remove="images\Wall_Outlet_Mk.1.png" />
+	  <None Remove="images\Wall_Outlet_Mk.2.png" />
+	  <None Remove="images\Wall_Outlet_Mk.3.png" />
+	  <None Remove="images\Water_Extractor.png" />
 	</ItemGroup>
 
 	<!--Dependencies-->
 	<ItemGroup>
-		<PackageReference Include="InputSimulatorPlus" Version="1.0.7" >
+		<PackageReference Include="InputSimulatorPlus" Version="1.0.7">
 			<NoWarn>NU1701</NoWarn>
 		</PackageReference>
 		<PackageReference Include="StreamDeckLib" Version="0.*" />
@@ -34,7 +418,1159 @@
 
 	<!--Deployment files that must go with the build executable -->
 	<ItemGroup>
+		<Content Include="images\Assembler.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Automated_Gate.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\AWESOME_Shop.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\AWESOME_Sink.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_1m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Basic_Wall_4m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Beam_Connector.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Beam_Connector_Double.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Beam_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Big_Concrete_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Big_Frame_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Big_Metal_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Big_Pillar_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Biomass_Burner.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Blender.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Block_Signal.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Candy_Cane_Building.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_Corner.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_Crossing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_Ramp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_Stairs.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_Straight.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Catwalk_T-Crossing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ceiling_Light.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Center_Door_Wall_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Center_Door_Wall_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Center_Door_Wall_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Coal_Generator.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Constructor.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.4.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.5.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Belt_Mk.6.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Floor_Hole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Mk.4.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Lift_Mk.5.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Merger.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Pole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Splitter.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_Mount.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x1_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x1_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x1_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x2_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x2_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x2_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x3_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x3_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Conveyor_Wall_x3_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Craft_Bench.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Display_Sign.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_8m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_8m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_8m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_8m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Ramp_8m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Wall_Outlet_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Wall_Outlet_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Double_Wall_Outlet_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Down_Corner_Ramp_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Drone_Port.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Empty_Platform.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Empty_Platform_With_Catwalk.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Equipment_Workshop.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSIT_Roof_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSIT_Roof_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSIT_Roof_4m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSIT_Roof_Flat.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSMAS_Gift_Tree.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSMAS_Power_Light.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSMAS_Snow_Dispenser.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\FICSMAS_Wreath.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Flood_Light_Tower.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Fluid_Buffer.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Fluid_Freight_Platform.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundation_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Foundry.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Floor.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Foundation.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Ramp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Wall.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Window_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Window_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Frame_Window_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Freight_Platform.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Fuel_Generator.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Full_Frame_Window.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Gate_Hole_Wall_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Gate_Hole_Wall_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Gate_Hole_Wall_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Geothermal_Generator.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Giant_FICSMAS_Tree.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Foundation_8m_x_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Frame_Foundation.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Roof_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Roof_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Roof_4m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Glass_Roof_Flat.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hazard_Storage_Box.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hex_Frame_Window.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hypertube_Entrance.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hypertube_Floor_Hole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hypertube_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hypertube_Wall_Hole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hypertube_Wall_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Hyper_Tube.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Industrial_Fluid_Buffer.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Industrial_Lighting.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Industrial_Railing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Industrial_Storage_Container.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inner_Corner_Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Down_Corner_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_1m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_2m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_4m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_8m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_8m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Ramp_Wall_8m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inv._Up_Corner_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inverted_Frame_Ramp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inverted_Inner_Corner_Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inverted_Outer_Corner_Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Inverted_Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Jump_Pad.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Label_Sign_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Label_Sign_3m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Label_Sign_4m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ladder.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Large_Billboard.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Left_Door_Wall_(Plating).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Left_Door_Wall_(Sheet_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Lights_Control_Panel.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Lookout_Tower.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\MAM.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Manufacturer.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Medical_Storage_Box.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Metal_Beam.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Metal_Roof_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Metal_Roof_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Metal_Roof_4m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Metal_Roof_Flat.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 		<Content Include="images\miner.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Miner_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Miner_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Miner_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Modern_Railing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Nuclear_Power_Plant.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Oil_Extractor.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Outer_Corner_Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Packager.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Painted_Beam.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Panel_Window_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Panel_Window_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Panel_Window_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Particle_Accelerator.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Path_Signal.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Personal_Storage_Box.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pillar_Base.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pillar_Middle.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pillar_Top.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Floor_Hole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Junction_Cross.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Pump_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Pump_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Wall_Hole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Pipeline_Wall_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Portrait_Sign.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Line.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Pole_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Pole_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Pole_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Storage.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Power_Switch.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Programmable_Splitter.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Quarter_Pipe_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Radar_Tower.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Railway.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_1m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_2m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_4m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_8m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_8m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Ramp_Wall_8m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Refinery.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Reinforced_Window_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Reinforced_Window_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Reinforced_Window_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Resource_Well_Extractor.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Resource_Well_Pressurizer.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Right_Door_Wall_(Plating).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Right_Door_Wall_(Sheet_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Road_Barrier.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Side_Door_Wall_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Side_Door_Wall_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Side_Door_Wall_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Single_Window_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Single_Window_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Single_Window_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Small_Billboard.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Small_Concrete_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Small_Frame_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Small_Metal_Pillar.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Small_Pillar_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Smart_Splitter.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Smelter.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Snowman.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Space_Elevator.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Square_Sign_0.5m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Square_Sign_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Square_Sign_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Stackable_Conveyor_Pole.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Stackable_Hypertube_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Stackable_Pipeline_Support.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Stairs_Left.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Stairs_Right.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Storage_Container.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Street_Light.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tar_Roof_1m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tar_Roof_2m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tar_Roof_4m.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tar_Roof_Flat.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\The_HUB.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_4m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_8m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_8m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Corner_Wall_8m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_4m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_8m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_8m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Tilted_Wall_8m_(Steel).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Train_Station.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Truck_Station.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\U-Jelly_Landing_Pad.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_1m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_1m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_1m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_1m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_1m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_2m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_2m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_2m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_2m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_2m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_4m_(Asphalt).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_4m_(Coated).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_4m_(Concrete).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_4m_(FICSIT).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Up_Corner_Ramp_4m_(Grip_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Valve.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Walkway_Crossing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Walkway_Ramp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Walkway_Straight.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Walkway_T-Crossing.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Walkway_Turn.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Conveyor_Perpendicular_(Plating).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Conveyor_Perpendicular_(Sheet_Metal).png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Mounted_Flood_Light.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Outlet_Mk.1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Outlet_Mk.2.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Wall_Outlet_Mk.3.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="images\Water_Extractor.png">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 		<Content Include="manifest.json">
@@ -47,27 +1583,6 @@
 
 	<!-- Images that must be deployed with the executable -->
 	<ItemGroup>
-		<Content Include="images/actionDefaultImage.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/actionDefaultImage@2x.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/actionIcon.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/actionIcon@2x.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/pluginIcon.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/pluginIcon@2x.png">
-				<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-		<Content Include="images/category/categoryIcon.png">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
 		<Content Include="images/category/categoryIcon@2x.png">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>

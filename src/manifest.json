@@ -16,7 +16,7 @@
     }
   ],
   "Category": "Satisfactory Game Plugin",
-  "CategoryIcon": "images/category/categoryIcon",
+  "CategoryIcon": "images/category/categoryIcon@2x",
   "Disabled": false,
   "Author": "Brett Parker",
   "CodePath": "streamdecksatisfactory.exe",
