@@ -2,12 +2,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFrameworks>netcoreapp3.1</TargetFrameworks>
 		<LangVersion>latest</LangVersion>
-		<!-- When building/running on Windows -->
 		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
-		<!-- When on non-Windows environment, assume macOS for now -->
-		<!-- At this time, the only platforms we are really targetting, and supported by the Stream Deck SDK are Windows and macOS  -->
 		<RuntimeIdentifiers Condition="'$(Configuration)'=='Release' ">win-x64;osx-x64</RuntimeIdentifiers>
 		<RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
 	</PropertyGroup>
@@ -18,7 +15,9 @@
 
 	<!--Dependencies-->
 	<ItemGroup>
-		<PackageReference Include="InputSimulatorPlus" Version="1.0.7" />
+		<PackageReference Include="InputSimulatorPlus" Version="1.0.7" >
+			<NoWarn>NU1701</NoWarn>
+		</PackageReference>
 		<PackageReference Include="StreamDeckLib" Version="0.*" />
 		<PackageReference Include="StreamDeckLib.Config" Version="0.*" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.3" />

@@ -9,8 +9,8 @@ namespace streamdecksatisfactory
   [ActionUuid(Uuid= "envy.satisfactory.buildings")]
   public class StreamdeckSatisfactoryAction : BaseStreamDeckActionWithSettingsModel<Models.SatisfactorySettingsModel>
   {
-	// Variable decleration
-	InputSimulator sim = new InputSimulator();
+    // Variable decleration
+    readonly InputSimulator sim = new();
 
 	// StreamDeck button press
     public override async Task OnKeyUp(StreamDeckEventPayload args)

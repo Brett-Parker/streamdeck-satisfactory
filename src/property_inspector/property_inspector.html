@@ -13,19 +13,51 @@
 		Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
 	-->
 
-		<div class="sdpi-item" id="search_text">
-			<div class="sdpi-item-label">Search Text</div>
-			<input id="txtSearchText" class="sdpi-item-value" type="text" pattern="[A-Za-z]+" placeholder="Enter Building Search Text" onchange="setSettings(event.target.value, 'SearchText')" />
-		</div>
-
 		<div class="sdpi-item" id="selectBuildings">
 			<div class="sdpi-item-label">Building</div>
 			<select class="sdpi-item-value select" id="selectBuildingType" onchange="setSettings(event.target.value, 'SearchText')">
-				<optgroup label="Constructor">
+				<optgroup label="Special">
+					<option value="The Hub">The Hub</option>
+					<option value="Space Elevator">Space Elevator</option>
+				</optgroup>
+				<optgroup label="Production">
+					<option value="Constructor">Constructor</option>
+					<option value="Assembler">Assembler</option>
+					<option value="Smelter">Smelter</option>
 					<option value="Miner">Miner</option>
+					<option value="Water Extractor">Water Extractor</option>
+					<option value="Craft Bench">Craft Bench</option>
+					<option value="Equipment Workshop">Equipment Workshop</option>
 				</optgroup>
 				<optgroup label="Power">
-					<option value="Biomass">Biomass</option>
+					<option value="Biomass Burner">Biomass Burner</option>
+					<option value="Coal Generator">Coal Generator</option>
+					<option value="Power Line">Power Line</option>
+					<option value="Power Pole">Power Pole</option>
+				</optgroup>
+				<optgroup label="Logistics">
+					<option value="Conveyor Belt">Conveyor Belt</option>
+					<option value="Conveyor Lift">Conveyor Lift</option>
+					<option value="Conveyor Pole">Conveyor Pole</option>
+					<option value="Stackable Conveyor Pole">Stackable Conveyor Pole</option>
+					<option value="Pipeline">Pipeline</option>
+					<option value="Pipeline Junction Cross">Pipeline Junction Cross</option>
+					<option value="Pipeline Pump">Pipeline Pump</option>
+					<option value="Pipeline Support">Pipeline Support</option>
+					<option value="Conveyor Merger">Conveyor Merger</option>
+					<option value="Conveyor Splitter">Conveyor Splitter</option>
+				</optgroup>
+				<optgroup label="Organization">
+					<option value="Storage Container">Storage Container</option>
+					<option value="Fluid Buffer">Fluid Buffer</option>
+					<option value="Lookout Tower">Lookout Tower</option>
+				</optgroup>
+				<optgroup label="Foundations">
+					<option value="Foundation 1m">Foundation 1m</option>
+					<option value="Ramp 1m">Ramp 1m</option>
+				</optgroup>
+				<optgroup label="Walls">
+					<option value="Basic Wall 1m">Basic Wall 1m</option>
 				</optgroup>
 			</select>
 		</div>
