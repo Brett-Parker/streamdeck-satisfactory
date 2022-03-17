@@ -20,12 +20,12 @@ namespace streamdecksatisfactory
 	{
 		// Open search bar
 		sim.Keyboard.KeyPress(VirtualKeyCode.VK_N);
-		KeyboardSleep(50);
+		sim.Keyboard.Sleep(50);
 
 		// Text entry to search. E.G "Miner"
 		string searchText = SettingsModel.SearchText[0..^4].Replace('_', ' ');
 		sim.Keyboard.TextEntry(searchText);
-		KeyboardSleep(50);
+		sim.Keyboard.Sleep(50);
 		PressReturn();
 
 		// Update settings
@@ -47,18 +47,10 @@ namespace streamdecksatisfactory
 	}
 
 	/// <summary>
-	/// PressReturn simulations a enter/return input
+	/// Press Return simulations a enter/return input
 	/// </summary>
-    private void KeyboardSleep(int time)
-    {
-		sim.Keyboard.Sleep(time);
-	}
-
-	/// <summary>
-	/// PressReturn simulations a enter/return input
-	/// </summary>
-    private void PressReturn()
-    {
+	private void PressReturn()
+	{
 		sim.Keyboard.KeyDown(VirtualKeyCode.RETURN);
 		sim.Keyboard.Sleep(50);
 		sim.Keyboard.KeyUp(VirtualKeyCode.RETURN);
