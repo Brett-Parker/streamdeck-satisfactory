@@ -4,7 +4,7 @@ This repo is a plugin for Elgato Stream Deck and specifically for the video game
 
 ## Using the plugin
 
-- Download and install latest release
+- Download and install latest release: https://github.com/Brett-Parker/streamdeck-satisfactory/releases
 
 - Once installed, drag and drop the "Building Macro" below on to a location in your Stream Deck profile.
 ![Screenshot 1](data/screenshots/plugin-installed.png "Plugin Installed")
