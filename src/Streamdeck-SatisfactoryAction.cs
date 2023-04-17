@@ -13,7 +13,6 @@ namespace streamdecksatisfactory
   {
     // Keyboard simulator
     readonly InputSimulator sim = new();
-	string path = Path.Combine(Environment.CurrentDirectory, @"images\");
 
 	// StreamDeck button press
     public override async Task OnKeyUp(StreamDeckEventPayload args)
