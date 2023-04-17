@@ -35,11 +35,7 @@ namespace streamdecksatisfactory
 	public override async Task OnDidReceiveSettings(StreamDeckEventPayload args)
 	{
 		await base.OnDidReceiveSettings(args);
-
-        // Set icon
-		path = Path.Combine(path, SettingsModel.SearchText);
-		await Manager.SetImageAsync(args.context, path);
-	}
+    }
 
 	public override async Task OnWillAppear(StreamDeckEventPayload args)
 	{
