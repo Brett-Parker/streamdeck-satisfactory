@@ -18,7 +18,7 @@ For the icon, at the bottom left, choose "Set from file"
 
 ![Screenshot 3](data/screenshots/set-icon.png "Set Icon")
 
-- Navigate to (Replace with your username): C:\Users<user>\AppData\Roaming\Elgato\StreamDeck\Plugins\envy.satisfactory.bu.sdPlugin\images
+- Navigate to (Replace with your username): C:\Users\<user>\AppData\Roaming\Elgato\StreamDeck\Plugins\envy.satisfactory.bu.sdPlugin\images
 
 - Choose image to suit
 
